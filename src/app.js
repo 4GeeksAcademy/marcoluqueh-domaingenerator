@@ -25,6 +25,6 @@ window.onload = function() {
   let excuseWhat = what[Math.floor(Math.random() * what.length)];
   let excuseWhen = when[Math.floor(Math.random() * when.length)];
 
-  let generateExcuse = excuseWho + +excuseAction + excuseWhat + excuseWhen;
+  let generateExcuse = excuseWho + ' ' + excuseAction + ' ' + excuseWhat + ' ' + excuseWhen;
   document.querySelector("#excuse").innerHTML = generateExcuse;
 };
